@@ -1,0 +1,484 @@
+@media (max-width:1329px) {
+  .playlist h4 {
+    margin-left: 13%;
+  }
+}
+
+
+/********************************* 2 media query at 1280px ********************************/
+@media (max-width:1280px) {
+  .header-container .right-side {
+    margin-left: 370px;
+  }
+
+  .similar h4 {
+    margin-left: 3%;
+  }
+
+  .playlist h4 {
+    margin-left: 13%;
+  }
+}
+
+
+
+/********************************* One media query at 1222px ********************************/
+@media (max-width:1222px) {
+  .plus-button {
+    display: none;
+  }
+
+  .playlist h4 {
+    margin-left: 7%;
+  }
+}
+
+
+
+/********************************* 3 media queries at 1191px ********************************/
+@media (max-width:1191px) {
+  .header-container .right-side {
+    margin-left: 270px;
+  }
+
+  .masterPlay {
+    left: 0px;
+    width: 96vw;
+  }
+
+  audio {
+    width: 700px;
+  }
+}
+
+
+
+/********************************* 3 media queries at 1000px ********************************/
+@media (max-width:1000px) {
+  .header-container .right-side {
+    margin-left: 170px;
+  }
+
+  audio {
+    width: 400px;
+  }
+
+  .singer-desc {
+    width: 55%;
+    justify-content: center;
+  }
+}
+
+
+
+
+/********************************* 3 media queries at 921px ********************************/
+@media (max-width:921px) {
+  .trending {
+    width: 760px;
+    height: 250px;
+    margin-left: 26px;
+    justify-content: space-around;
+  }
+
+  .trending img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .trending img:hover {
+    width: 240px;
+    height: 240px;
+
+  }
+}
+
+
+
+/********************************* some media queries at 720px ********************************/
+@media (max-width:720px) and (min-width:502px) {
+
+
+  .h2-headings {
+    margin-top: 30px;
+    font-weight: 200;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .main-layout {
+    margin-left: 10px;
+  }
+
+  .header-container {
+    height: 35px;
+  }
+
+  .header-container .right-side {
+    margin-left: -90px;
+  }
+
+  .trending {
+    width: 640px;
+    height: 250px;
+    margin-left: 26px;
+    justify-content: space-around;
+  }
+
+  .trending img {
+    width: 190px;
+    height: 190px;
+  }
+
+  .trending img:hover {
+    width: 220px;
+    height: 220px;
+
+  }
+
+  .latest {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin-left: 20px;
+  }
+
+  .album {
+    margin-top: 10px;
+    /* width: 300px; */
+  }
+
+  .album img {
+    width: 130px;
+  }
+
+  .album p {
+    display: none;
+  }
+
+  .album i {
+    display: none;
+  }
+
+  .artists {
+    flex-wrap: wrap;
+    width: 700px;
+  }
+
+  .artists img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .masterArtist {
+    height: 100px;
+    width: 100px;
+  }
+
+  .display-container .seeAll {
+    font-size: 12px;
+    right: 28%;
+    top: -15px;
+  }
+
+  .display {
+    margin-top: 0px;
+  }
+
+  .focus-baseline {
+    margin-left: 20px;
+  }
+
+  .masterPlay {
+    left: 2px;
+    width: 100%;
+  }
+
+  .leftside {
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+  }
+
+  .song-details {
+    width: 70px;
+  }
+
+  .leftside img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+  }
+
+  .song-details {
+    margin-top: 05px;
+    line-height: 14px;
+  }
+
+  .song-title {
+    font-size: 8px;
+
+  }
+
+  .middle {
+    top: 14px;
+    margin-left: 10px;
+  }
+
+  audio {
+    width: 400px;
+    height: 25px;
+  }
+
+  .singer-desc {
+    display: none;
+  }
+
+  .artist-page button {
+    position: relative;
+    margin-top: -500px;
+  }
+
+  .artist-page .follow {
+    display: none;
+  }
+
+  .artist-page .tracks {
+    position: relative;
+    margin-top: -220px;
+  }
+
+}
+
+
+
+/*********************************  media queries at 502px ********************************/
+@media (max-width:502px) {
+
+  .h2-headings {
+    margin-top: 30px;
+    font-weight: 200;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  .header-container {
+    height: 40px;
+  }
+
+  .header-container .right-side {
+    margin-left: 100px;
+  }
+
+  .right-side .search-song {
+    width: 50px;
+  }
+
+  .header-container .left-side {
+    width: 100px;
+    padding-top: 15px;
+  }
+
+  .left-side h3 {
+    font-size: 8px;
+    font-weight: 400;
+    margin-right: 8px;
+    margin-left: 1px;
+    line-height: 10px;
+  }
+
+  .left-side h3 .logo-text {
+    font-weight: 400;
+    font-size: 12px;
+    color: #C51230;
+  }
+
+  .left-side img {
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .left-side p {
+    font-size: 8px;
+    margin-left: 30px;
+  }
+
+  .right-side .search-song {
+    height: 20px;
+    font-size: 8px;
+  }
+
+  .right-side .search-icon {
+    height: 20px;
+  }
+
+  .right-side .voice-search-icon {
+    height: 20px;
+  }
+
+  /* trending */
+  .trending {
+    margin-top: 0px;
+    width: 400px;
+    height: 200px;
+    margin-left: 30px;
+  }
+
+  .trending img {
+    width: 150px;
+    height: 150px;
+    transition: .35s;
+    border-radius: 6px;
+  }
+
+  .trending img:hover {
+    width: 180px;
+    height: 180px;
+  }
+
+  /* main layout */
+  .main-layout {
+    width: 500px;
+    margin-left: 10px;
+  }
+
+  /* latest release */
+  .latest {
+    display: flex;
+    width: 500px;
+    margin-left: 20px;
+  }
+
+  .album {
+    margin-top: 10px;
+    width: 100px;
+  }
+
+  .album img {
+    width: 90px;
+  }
+
+  .album p {
+    display: none;
+  }
+
+  .album i {
+    display: none;
+  }
+
+  /* popular Artists */
+  .artists {
+    flex-wrap: wrap;
+  }
+
+  .artists img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .masterArtist {
+    height: 70px;
+    width: 70px;
+  }
+
+
+  /* general section */
+  .display-container {
+    width: 600px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .display-container .seeAll {
+    font-size: 8px;
+    right: 20px;
+  }
+
+  .display {
+    margin-top: 0px;
+    width: 120px;
+    height: 200px;
+  }
+
+  .display-container .display img {
+    width: 80px;
+  }
+
+  .display .display-title {
+    font-size: 10px;
+  }
+
+  .display .desc {
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .focus-baseline {
+    margin-left: 10px;
+    font-size: 10px;
+  }
+
+
+  /* masterPlay */
+  .masterPlay {
+    left: 2px;
+    width: 100%;
+  }
+
+  .leftside {
+    width: 150px;
+    margin-left: 10px;
+  }
+
+  .song-details {
+    width: 70px;
+  }
+
+  .leftside img {
+    width: 30px;
+    height: 30px;
+    margin: 10px 5px;
+  }
+
+  .song-details {
+    line-height: 14px;
+  }
+
+  .song-title {
+    font-size: 8px;
+
+  }
+
+  .plus-button {
+    display: none;
+  }
+
+  .middle {
+    top: 14px;
+  }
+
+  audio {
+    width: 200px;
+    height: 25px;
+  }
+
+
+  .singer-desc {
+    display: none;
+  }
+
+  .artist-page button {
+    position: relative;
+    margin-top: -550px;
+    margin-left: 280px;
+  }
+
+  .artist-page .follow {
+    display: none;
+  }
+
+  .artist-page .tracks {
+    position: relative;
+    margin-top: -240px;
+    margin-left: 280px;
+  }

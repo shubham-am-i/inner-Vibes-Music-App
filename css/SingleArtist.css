@@ -1,0 +1,150 @@
+/******** Google Font Nunito ********/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+
+
+
+/*********************** Main Layout ***************************/
+.layout {
+  height: 1600px;
+  width: 950px;
+  margin-left: 50px;
+  padding-top: 100px;
+  color: white;
+
+}
+
+.artist-page {
+  background: linear-gradient(to bottom right, #0C1027, #000);
+  height: 390px;
+}
+
+.artist-page img {
+  width: 250px;
+  border-radius: 4px;
+
+}
+
+.artist-details {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Nunito', sans-serif;
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+}
+
+.singer-name {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 50%;
+  display: inline-block;
+
+
+}
+
+.followers {
+  font-size: 12px;
+  color: grey;
+}
+
+.singer-desc {
+  width: 70%;
+  margin-left: 275px;
+  color: rgb(228, 229, 235);
+  font-size: 15px;
+  letter-spacing: .5px;
+  line-height: 23px;
+  text-align: left;
+  margin-top: -320px;
+  vertical-align: top;
+  margin-bottom: 100px;
+
+}
+
+.artist-page button {
+  margin-left: 300px;
+  vertical-align: middle;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  border-radius: 3px;
+  border-style: none;
+  cursor: pointer;
+  ;
+  transition: .15s;
+  background: linear-gradient(to right, #3524AF, #B845DB);
+
+}
+
+.artist-page button:hover {
+  color: white;
+}
+
+.artist-page .follow {
+  margin-left: 50px;
+  border: 1px solid black;
+
+}
+
+.artist-page .follow:hover {
+  color: #C51230;
+  cursor: pointer;
+
+}
+
+.tracks {
+  margin-left: 32%;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+
+
+/***************************** css for songs container ***********************************/
+.songs-container {
+  padding-top: 30px;
+}
+
+.songs {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.songs:hover {
+  background-color: #0a121a;
+  transition: .3s linear;
+}
+
+.songs .index {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.songs img {
+  width: 80px;
+  height: 60px;
+}
+
+.songs .name {
+  margin-left: 2%;
+  width: 40%;
+  font-size: 16px;
+}
+
+.songs .artist {
+  margin-left: 10%;
+  font-size: 15px;
+
+  width: 20%;
+}
+
+.songs i {
+  margin-left: 3%;
+}

@@ -1,0 +1,122 @@
+/******************** CSS for similar artist, Playlist in aside section of Single-Artist.html ***********************/
+.playlist, .similar{
+  font-family: 'Comfortaa', cursive;
+}
+.playlist::-webkit-scrollbar {
+  width: 0px;    
+}
+.similar::-webkit-scrollbar {
+  width: 0px;    
+}
+
+.playlist{
+  background: linear-gradient(to bottom,#000000 1%,#031c27 100%);
+  color: white;
+  position: fixed;
+  right:10px;
+  left: 1020px;
+  top: 350px;
+  bottom:0px;
+  overflow: auto;
+}
+.playlist h1{
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.playlist h1,h4{
+  display: inline-block;
+  
+  
+}
+.playlist h4{
+  margin-left: 45%;
+  color: rgb(9, 58, 122);
+  font-size: 13px;
+}
+
+.playlist h4:hover{
+  color:rgb(172, 32, 8);
+  font-size: 12px;
+  cursor: pointer;
+}
+.playlist i{
+  color: rgb(59, 53, 53);
+}
+.song-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    transition: .2s;
+}
+.song-container:hover{
+  background-color: #01070D;
+  cursor: pointer;
+  color:rgb(172, 32, 8);
+}
+.song-container img{
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 17px 2px#242020;
+}
+.song-container .index{
+  font-size: 13px;
+  color: grey;
+  padding-left: 10px;
+}
+.song-container i{
+  margin-right: 5%;
+}
+.song-info{
+  margin-left: 10px;
+  width: 210px;
+}
+.song-info p:nth-child(1){
+  font-family: 'Comfortaa', cursive;
+  font-size: 13px;
+}
+.song-info p:nth-child(2){
+  font-size: 13px;
+  padding-top: 5px;
+  color: grey;
+}
+
+
+/***************************** css for similar Artists *************************************/
+.similar{
+  color: white;
+  position: fixed;
+  right:10px;
+  left: 1020px;
+  top:100px;
+  bottom:53%;
+  overflow: auto;
+}
+.similar h1{
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.similar h1,h4{
+  display: inline-block;
+}
+.similar h4{
+  margin-left: 20%;
+  /* margin-right: 10px; */
+  color: rgb(9, 58, 122);
+  font-size: 13px;
+}
+.similar h4:hover{
+  color:rgb(172, 32, 8);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+
+
+

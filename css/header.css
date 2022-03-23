@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #010101;
+    padding-bottom: 100px;
+}
+
+/*************************** all header-container CSS is divided into two sections **************************/
+.header-container {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-image: url('../assests/header-images/universe.jpg');
+    color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+/******************************** left-section *****************************/
+.header-container .left-side {
+    width: 300px;
+    padding-top: 15px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.left-side img {
+    /* margin-top: 25px; */
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+.left-side h3 {
+    font-family: 'Comfortaa', cursive;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 100px;
+    margin-left: 3px;
+    line-height: 15px;
+}
+
+.left-side h3 .logo-text {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: #C51230;
+}
+
+.left-side p {
+    display: inline-block;
+    color: #015CC8;
+    cursor: pointer;
+}
+
+.left-side p:hover {
+    color: #C51230;
+}
+
+
+/******************************* right-section ****************************/
+.header-container .right-side {
+    margin-left: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side img {
+    height: 30px;
+}
+
+.right-side .search-icon {
+    background-color: rgb(240, 234, 234);
+    padding: 5px 3px 5px 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.right-side .search-song {
+    height: 30px;
+    width: 250px;
+    font-size: 16px;
+    background-color: rgb(240, 234, 234);
+    color: grey;
+    border: 1px;
+    outline: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.right-side .voice-search-icon {
+    background-color: rgb(240, 234, 234);
+    padding: 5px;
+    margin-left: -3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.notification {
+    position: relative;
+    background-color: rgb(182, 6, 6);
+    color: white;
+    font-size: 8px;
+    height: 13px;
+    width: 13px;
+    border-radius: 100%;
+    top: -10%;
+    left: -2%;
+    text-align: center;
+    padding: 2px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.right-side i {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.right-side .profile-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-size: cover;
+    cursor: pointer;
+}

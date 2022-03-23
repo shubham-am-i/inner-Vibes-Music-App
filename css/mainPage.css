@@ -1,0 +1,229 @@
+/***************************  Google font poppins *****************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.h2-headings {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/********************************* CSS for Trending section *********************************/
+.trending {
+  margin-top: 20px;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  margin-left: 60px;
+}
+
+.trending img {
+  width: 250px;
+  height: 250px;
+  transition: .5s;
+  border-radius: 6px;
+}
+
+.trending img:hover {
+  width: 320px;
+  height: 320px;
+}
+
+.main-layout {
+  width: 950px;
+  margin-left: 50px;
+  padding-top: 50px;
+  color: white;
+}
+
+/********************************** CSS for Latest Release **********************************/
+.latest {
+  color: white;
+  display: grid;
+  margin-left: 15px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.album {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  cursor: pointer;
+}
+
+.album img {
+  width: 150px;
+}
+
+.album img:hover {
+  box-shadow: 4px 4px 27px #242020;
+}
+
+.album-details p {
+  width: 150px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+.album-stats a {
+  font-size: 12px;
+  color: #3f729b;
+}
+
+.album-stats {
+  font-size: 12px;
+  color: #3f729b;
+}
+
+.album i {
+  position: relative;
+  margin-left: 80px;
+  margin-top: -110px;
+}
+
+.album i:hover .dropdown {
+  display: inline-block;
+}
+
+.dropdown {
+  width: 93px;
+  position: absolute;
+  left: -80px;
+  top: 10px;
+  background-color: rgb(167, 162, 162);
+  display: none;
+  transition: opacity 0.3s;
+  color: black;
+  border-radius: 2px;
+}
+
+.dropdown p {
+  padding: 4px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.dropdown p:hover {
+  background-color: rgb(72, 80, 72);
+}
+
+/********************************** CSS for Popular Artists *******************************/
+.artists {
+  display: flex;
+}
+
+.artists img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  margin: 5px 8px;
+}
+
+.artists a {
+  text-decoration: none;
+}
+
+.masterArtist {
+  border: none;
+  height: 120px;
+  width: 120px;
+  background-image: url('../assests/artists/sooryagayathri.jpg');
+  background-size: contain;
+  border-radius: 100%;
+  margin: 5px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.masterArtist:hover {
+  box-shadow: 1px 1px 17px 2px #242020;
+}
+
+.icon {
+  font-size: 0px;
+}
+
+.masterArtist:hover .icon {
+  font-size: 23px;
+  color: white;
+}
+
+
+/***************************** CSS for General Section ****************************/
+.display-container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.display-container .seeAll {
+  position: absolute;
+  right: 2%;
+  font-size: 12px;
+  color: grey;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  background-color: rgb(17, 15, 15);
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+.display:hover {
+  cursor: pointer;
+  background-color: rgb(36, 32, 32);
+  transition: .35s;
+}
+
+.display .display-image {
+  padding: 15px 15px 10px 15px;
+}
+
+.display-container .display img {
+  width: 180px;
+  border-radius: 5px;
+  transition: .35s;
+}
+
+.display-container .display img:hover {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.display p {
+  padding: 0px 15px;
+}
+
+.display .display-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.display .desc {
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  color: grey;
+}
+
+/***************************** some remaining css specific ******************************/
+.focus-baseline {
+  margin-top: -2px;
+  font-size: 12px;
+  color: #C51230;
+}
